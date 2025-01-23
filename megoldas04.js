@@ -1,7 +1,7 @@
 let eletkor = Number(prompt("Adj meg egy életkort:"));
 let besorolas;
 
-if(eletkor>=60){
+if(eletkor>=60&&eletkor<=120){
 	besorolas = "Aggkor";
 }
 else if(eletkor>=30){
